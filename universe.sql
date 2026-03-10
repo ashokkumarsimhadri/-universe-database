@@ -50,7 +50,7 @@ SET default_table_access_method = heap;
 CREATE TABLE public.comet (
     comet_id integer NOT NULL,
     name character varying(100) NOT NULL,
-    description text,
+    description text NOT NULL,
     orbit_time integer,
     is_visible boolean
 );
