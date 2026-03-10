@@ -348,7 +348,7 @@ INSERT INTO public.star VALUES (6, 'Vega', 3, 455, 9600, true);
 -- Name: comet_comet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.comet_comet_id_seq', 3, true);
+SELECT pg_catalog.setval('public.comet_comet_id_seq', 4, true);
 
 
 --
