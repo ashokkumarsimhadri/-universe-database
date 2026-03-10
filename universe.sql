@@ -164,7 +164,7 @@ CREATE TABLE public.planet (
     planet_id integer NOT NULL,
     name character varying(100) NOT NULL,
     star_id integer NOT NULL,
-    planet_type text,
+    planet_type text NOT NULL,
     distance_from_star numeric,
     has_life boolean
 );
@@ -204,7 +204,7 @@ CREATE TABLE public.star (
     galaxy_id integer NOT NULL,
     age_in_millions_of_years integer,
     temperature integer,
-    is_visible boolean
+    is_visible boolean NOT NULL
 );
 
 
